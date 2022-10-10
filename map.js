@@ -14,18 +14,18 @@ const products = [
 // )
 // console.log(output);
 
-// const output = products.map(function(item){
-//     item.prize = item.size*500;
-//     return item;
-// }
-// )
-// console.log(output);
-
 const output = products.map(function(item){
-    if(item.size === 9){
-        item.size = 11
-    }
+    item.prize = item.size*500;
     return item;
 }
 )
 console.log(output);
+
+// const output = products.map(function(item){
+//     if(item.size === 9){
+//         item.size = 11
+//     }
+//     return item;
+// }
+// )
+// console.log(output);
